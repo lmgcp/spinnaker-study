@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /kube-heist(/|$)(.*)
                         backend:
                             serviceName: kube-heist-microservice-service
                             servicePort: 30201
