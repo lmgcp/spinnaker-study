@@ -8,7 +8,7 @@ metadata:
     name: kube-heist-microservice
     namespace: microservices
 spec:
-    replicas: 4
+    replicas: 5
     selector:
         matchLabels:
             run: kube-heist-microservice
